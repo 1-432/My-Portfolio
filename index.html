@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- ScrollReveal.js CDN -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+  <header>
+          <div class="container">
+            <h1>Oyugi Dominic</h1>
+            <button id="menu-toggle" aria-label="Toggle navigation">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+            
+          </div>
+        </header>
+        
+      <nav>
+        <ul>
+
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+
+          <section id="gallery" class="section reveal">
+            <div class="container">
+              <h2>Gallery</h2>
+              <div class="gallery-grid">
+               
+               
+                
+                </div>
+                
+              </div>
+            </div>
+          </section>
+          
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="section reveal">
+    <div class="container">
+      <h2>Welcome!</h2>
+      <p>I'm a Web Developer & UI/UX Designer crafting clean, fast, and user-focused digital experiences.
+        I turn ideas into modern interfaces and fully functional websites that feel as good as they look.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section reveal">
+    <div class="container">
+      <h2>Services</h2>
+      <ul class="services-list">
+        <li>Website Design & Development</li>
+        <li>UI/UX Design</li>
+        <li>Web Redesign & Optimization</li>
+        <li>Portfolio & Business Websites</li>
+        <li>Maintenance & Support</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="resume" class="section reveal">
+    <div class="container">
+      <h2>Resume</h2>
+      <p><strong>Experience:</strong></p>
+      <ul>
+        <li>Mid-Level Developer at XYZ Corp (2021–Present)</li>
+        <li>Junior Developer at ABC Solutions (2018–2021)</li>
+      </ul>
+      <p><strong>Skills:</strong> JavaScript,HTML5, CSS3,Responsive & Mobile-First Design
+
+        WordPress (Themes, Customization)
+        
+        Bootstrap / Tailwind CSS
+        
+        Git & GitHub
+        
+        Website Deployment & Hosting </p>
+      <a href="resume.pdf" download class="btn">📄 Download Resume</a>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section reveal">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <h3>Modern Business Website</h3>
+          <p>A sleek, responsive business website built using HTML, CSS, JavaScript, and Tailwind.
+            Focused on clean layout, fast loading, and a strong brand identity.</p>
+        </div>
+        <div class="portfolio-item">
+          <h3>Agrismart Farm</h3>
+          <p>AgriSmart is a modern smart farm website that helps farmers monitor soil moisture, temperature, humidity, and irrigation status in real time. It features a clean dashboard UI, weather insights, and simple farm management tools—all designed to improve decision-making and boost farm productivity.</p>
+        </div>
+        <div class="portfolio-item">
+          <h3>Report Generation Tool</h3>
+          <p>A lightweight report generation tool that automatically collects data, formats it, and exports clean, professional reports in seconds. Built with a simple UI for easy input, quick customization, and fast PDF/Excel output—perfect for streamlining workflows and saving time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section reveal">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a passionate Web Developer and UI/UX Designer dedicated to building fast, modern, and user-friendly digital experiences. I combine clean design with solid front-end development to turn ideas into fully functional products. I focus on usability, responsiveness, and delivering solutions that look great and perform even better. My goal is to help brands and businesses create digital platforms that are easy to use and visually impactful.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section reveal">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="form-response"></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Oyugi Dominic Nyangoka. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
